@@ -437,10 +437,26 @@ footer .copyright {
   background: none;
   padding-top: 15px;
   padding-left: 10px;
+  font-weight: bold;
 }
 .site-pullquote {
   border-right: 4px solid #2A8BB8;
   background: url(../img/pullquote.svg) 0 0 no-repeat;
+}
+
+.site-pullquote p {
+  margin: 0;
+}
+.quote_body {
+  font-size: 24px;
+}
+
+@media only screen and (max-width: 768px) {
+  .site-pullquote {
+    margin: 0 auto;
+    float: none;
+    width: 100%;
+  }
 }
 
 .site-footer {
@@ -454,5 +470,3 @@ footer .copyright {
 footer {
   display: block;
 }
-
-
